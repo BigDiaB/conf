@@ -34,20 +34,20 @@ disabled = #707880
 width = 100%
 offset-x = 0%
 offset-y = 0px
-height = 20pt
+height = 18pt
 radius = 0
 
-bottom = true
+bottom = false
 
 ; dpi = 96
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 2pt
+line-size = 1pt
 
 border-size = 0pt
-border-color = #ffff00aa
+border-color = #ff000000
 
 padding-left = 0
 padding-right = 1
@@ -57,7 +57,7 @@ module-margin = 1
 separator = |
 separator-foreground = ${colors.disabled}
 
-font-0 = JetBrainsMonoExtrabold;2
+font-0 = JetBrainsMonoExtrabold;0
 
 modules-left = xworkspaces xwindow
 ;
@@ -156,7 +156,7 @@ format-muted-prefix = "Mut "
 label-muted = %percentage%%
 format-muted-prefix-foreground = ${colors.primary}
 
-max-volume = PA_VOLUME_UI_MAX
+max-volume = PA_VOLUME_UI_MAXf
 
 [network-base]
 type = internal/network
