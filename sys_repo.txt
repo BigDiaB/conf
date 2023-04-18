@@ -1,1 +1,0 @@
-linux linux-firmware acpi base base-devel efibootmgr grub htop nano openssh networkmanager git

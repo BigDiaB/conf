@@ -1,1 +1,0 @@
-alacritty bspwm sxhkd feh picom pipewire-pulse polybar xf86-input-wacom xorg-server xorg-xinit xorg-xinput ttf-jetbrains-mono rofi libva intel-media-driver
