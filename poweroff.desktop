@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=systemctl poweroff
+Icon=system-shutdown-symbolic
+Terminal=false
+Categories=System;
+
+Name=Shutdown
+GenericName=poweroff
+Comment=Powers your PC off without any further confirmation

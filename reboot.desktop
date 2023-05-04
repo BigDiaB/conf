@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=systemctl reboot
+Icon=system-reboot-symbolic
+Terminal=false
+Categories=System;
+
+Name=Restart
+GenericName=reboot
+Comment=Reboots your PC without any further confirmation
