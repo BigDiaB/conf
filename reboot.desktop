@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=systemctl reboot
-Icon=system-reboot-symbolic
+Icon=/home/Benjaminemde/conf/icons/system-reboot-symbolic.symbolic.png 
 Terminal=false
 Categories=System;
 

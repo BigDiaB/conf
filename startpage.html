@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('/home/Benjaminemde/Bilder/BG/smash.png');
+            background-size: cover;
+            background-position: top;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        #search-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #search-box {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        #search-button {
+            background-color: #4285f4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="search-container">
+        <img src="google-logo.png" alt="Google Logo" width="150">
+        <br><br>
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" id="search-box" name="q" placeholder="Search Google">
+            <input type="submit" id="search-button" value="Google Search">
+        </form>
+    </div>
+</body>
+</html>

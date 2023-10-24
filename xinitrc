@@ -35,7 +35,7 @@ fi
 $HOME/Skripte/tap_click.sh &
 $HOME/Skripte/natural_scrolling.sh &
 $HOME/Skripte/wallpaper.sh &
-$HOME/Skripte/autorotate_screen &
+$HOME/Skripte/toggle_autorotation.sh &
 
 setxkbmap de
 
@@ -49,6 +49,7 @@ fi
 
 $HOME/Skripte/polybar.sh &
 $HOME/Skripte/compositor.sh &
+$HOME/Skripte/notifications.sh &
 
 xsetroot -cursor_name left_ptr
 

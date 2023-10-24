@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=systemctl poweroff
-Icon=system-shutdown-symbolic
+Icon=/home/Benjaminemde/conf/icons/system-shutdown-symbolic.symbolic.png 
 Terminal=false
 Categories=System;
 

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=systemctl suspend
+Icon=/home/Benjaminemde/conf/icons/weather-clear-night-symbolic.symbolic.png
+Terminal=false
+Categories=System;
+
+Name=Shutdown
+GenericName=sleep
+Comment=Suspends your PC off without any further confirmation
+Name[de_DE]=Suspend
